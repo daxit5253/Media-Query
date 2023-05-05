@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2327;
+    padding-block: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 15px;
+    background-color: #1f2327;
+}
+
+.link:hover{
+    color: #97bee8;
+}
+
+.list{
+    background-color: #1f2327;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.logo{
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.toggle i{
+    display: none;
+}
+

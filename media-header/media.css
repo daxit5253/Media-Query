@@ -1,0 +1,44 @@
+@media screen and (max-width:600px) {
+
+    .list a{
+        display: block;
+        width: 100%;
+        background-color: #2a3038;
+        margin-top: 30px;
+    }
+
+    .navbar p{
+      display: none;
+    }
+
+    .toggle > i{
+        display: block;
+        color: white;
+        font-size: 25px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+    .toggle{
+        background-color: #1f252c;
+    }
+
+    .t:hover{
+        color: #97bee8;
+    }
+
+    .toggle:hover .list{
+        display: inline-block;
+        width: 100%;
+        background-color: #2a3038;
+        position: absolute;
+        text-align: center;
+        margin: auto;
+        padding: 30px; 
+        top: 49px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    
+}

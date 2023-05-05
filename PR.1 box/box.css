@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+}
+
+.title{
+    color: violet;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.box{
+    box-shadow: 0 0 8px grey;
+    color: white;
+    padding: 8px 30px 30px;
+    word-wrap: break-word;
+    background: linear-gradient(339deg, rgba(125,63,251,1) 0%, rgba(94,0,213,1) 56%, rgba(151,31,254,1) 68%, rgba(166,20,254,1) 80%, rgba(192,2,255,1) 100%);
+}
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.xl-1,.xl-2,.xl-3,.xl-4,.xl-5,.xl-6,.xl-7,.xl-8,.xl-9,.xl-10,.xl-11,.xl-12,
+.sm-1,.sm-2,.sm-3,.sm-4,.sm-5,.sm-6,.sm-7,.sm-8,.sm-9,.sm-10,.sm-11,.sm-12,
+.xs-1,.xs-2,.xs-3,.xs-4,.xs-5,.xs-6,.xs-7,.xs-8,.xs-9,.xs-10,.xs-11,.xs-12{
+    padding: 12px;
+}
